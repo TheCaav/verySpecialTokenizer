@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import * as $ from 'jquery';
-import * as Prism from 'prismjs';
+import 'prismjs';
 import 'prismjs/components/prism-java';
+
+declare var Prism: any;
 
 @Component({
   selector: 'app-root',
