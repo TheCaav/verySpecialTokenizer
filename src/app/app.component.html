@@ -2,7 +2,7 @@
 <div style="text-align:center">
   <textarea rows="5" cols="50" id="text"></textarea><br>
   <button (click)="highlight()"> go</button><br>
-    <pre>{{text}}</pre>
+    <pre><code>{{text}}</code></pre>
     <pre class="language-java line-numbers"><code [innerHTML]="text" class="language-java"></code></pre>
 </div>
 
